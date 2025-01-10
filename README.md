@@ -48,6 +48,7 @@ _ATENTION!!! If you received not standard responce - contact us_
 _You can safely cancel Payout transaction ONLY_
 1) _if received status `ERROR`_
 2) _when we confirm the cancellation in the chat_
+
 Request:
 ```JSON
 {
@@ -133,6 +134,7 @@ Responce:
 
 ## Tokens
 Country Uzbekistan:(currency="UZS")
+
 	Humo UZS
 	UZ Card
 	HumoVisa
@@ -141,6 +143,7 @@ Country Uzbekistan:(currency="UZS")
 	UzcardMastercard
 
 Country Azerbaijan:(currency="AZN")
+
 	AZN
 	Mpay
 	LeoBank
@@ -149,6 +152,7 @@ Country Azerbaijan:(currency="AZN")
 	ABB
 
 Country Türkiye:(currency="TRY")
+
 	Enpara
 	Garanti
 	TRY
@@ -161,15 +165,18 @@ Country Türkiye:(currency="TRY")
 	Papara
 
 Country Kazakhstan:(currency="KZT")
+
 	ForteBank
 	Altyn Bank
 	Halyk Bank
 
 Country Tajikistan:(currency="TJS")
+
 	Алиф Банк
 	Спитамен Банк
 	Душанбе Сити Банк 
 
 Country Abkhazia:(currency="ARUB")
+
 	Сбербанк Абхазии 
 	А-мобаил
