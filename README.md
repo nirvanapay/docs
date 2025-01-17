@@ -83,7 +83,7 @@ Responce error:
 ```POST
 https://api.nirvanapay.pro/transaction/status
 ```
-
+PAYIN top up the client with the amount specified in the field amountFiatReceived
 Request:
 ```JSON
 {
@@ -95,17 +95,18 @@ Responce:
 {
 	"status": "ERROR",
 	"type": "IN",
-	"createTime": "2025-01-07T18:40:51.571466Z",
-	"amountCrypto": 1.4806,
-	"amountFiat": 20000,
-	"baseRate": 13114.36,
-	"rate": 13507.79,
-	"commission": 0.0444,
-	"trackerID": "bc86937fc07bbd889392d2b9492b91385bdff9cc3849ec8e2fa2e85115653bdd",
-	"clientID": "b5c0ac10f6f29ed9844a792ff1c27ea16191177e575e68e95020cc8c8a8ef672",
+	"createTime": "2025-01-15T15:00:17.278878Z",
+	"amountCrypto": 0.9466,
+	"amountFiatOrdered": 13000,
+	"amountFiatReceived": 0,
+	"baseRate": 13333.31,
+	"rate": 13733.31,
+	"commission": 0.0284,
+	"trackerID": "8a1479fa698bf27cec1ab5aa75966a81b5f70c6fa89549cf47d66d6317042a91",
+	"clientID": "11test",
 	"token": "Humo UZS",
 	"currency": "UZS",
-	"receiver": "9860170111367463"
+	"receiver": "9860060932532835"
 }
 ```
 Responce error:
