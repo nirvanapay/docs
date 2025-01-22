@@ -109,6 +109,25 @@ Responce:
 	"receiver": "9860060932532835"
 }
 ```
+Responce success:
+```JSON
+{
+	"status": "SUCCESS",
+	"type": "IN",
+	"createTime": "2025-01-19T17:33:09.952418Z",
+	"amountCrypto": 2.164,
+	"amountFiatOrdered": 30000,
+	"amountFiatReceived": 30000,
+	"baseRate": 13459.28,
+	"rate": 13863.06,
+	"commission": 0.0649,
+	"trackerID": "c7a2019fd0f4f511f698072911f55757861b4a11f9c96a476ff96b0ae76f410c",
+	"clientID": "9c5041dd5052c9fec797d90fa3921bf808641fb1049eeceb95d60a517fc6af92",
+	"token": "UZ Card",
+	"currency": "UZS",
+	"receiver": "5614682611279383"
+}
+```
 Responce error:
 ```JSON
 {
