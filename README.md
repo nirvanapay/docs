@@ -135,6 +135,15 @@ Responce error:
 }
 ```
 
+Possible statuses:
+```JSON
+{
+	"status": "ERROR",
+	"status": "CREATED",
+	"status": "SUCCESS",
+}
+```
+
 ## Balance
 ```GET
 https://api.nirvanapay.pro/client/balance
