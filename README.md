@@ -71,6 +71,13 @@ Responce:
 	"trackerID": "ea3c8b2799395d0a8e13a08fbd5a6aef3162f6143d703240d8c910ed95f6e8c9"
 }
 ```
+Responce can be without trackerID:
+```JSON
+{
+	"status": "CREATED",
+	"trackerID": ""
+}
+```
 Responce error:
 ```JSON
 {
@@ -89,6 +96,10 @@ Request:
 {
 	"clientID": "3test"
 }
+```
+Possible statuses:
+```JSON
+["ERROR","CREATED","SUCCESS"]
 ```
 Responce:
 ```JSON
