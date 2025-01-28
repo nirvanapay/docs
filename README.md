@@ -212,7 +212,7 @@ Country Abkhazia:(currency="ARUB")
 	Сбербанк Абхазии 
 	А-мобаил
 
- Country Abkhazia:(currency="RUB")
+ Country Russia:(currency="RUB")
 
 	Тинькофф
 	Сбербанк
