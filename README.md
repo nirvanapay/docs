@@ -7,6 +7,8 @@ For each api request you should use this headers:
 https://api.nirvanapay.pro/create/in
 ```
 
+THEN PAYIN or PAYOUT status changed (to ERROR or SUCCESS) you receive callback on address specified on callbackUrl. It looks like `HTTPS GET` request, so you should place your deal id in url (ex. https://my.app/callback `?id=39022`)
+
 Request:
 ```JSON
 {
@@ -48,6 +50,7 @@ _ATENTION!!! If you received not standard responce - contact us_
 _You can safely cancel Payout transaction ONLY_
 1) _if received status `ERROR`_
 2) _when we confirm the cancellation in the chat_
+THEN PAYIN or PAYOUT status changed (to ERROR or SUCCESS) you receive callback on address specified on callbackUrl. It looks like `HTTPS GET` request, so you should place your deal id in url (ex. https://my.app/callback `?id=39022`)
 
 Request:
 ```JSON
@@ -90,6 +93,7 @@ Responce error:
 ```POST
 https://api.nirvanapay.pro/transaction/status
 ```
+THEN PAYIN or PAYOUT status changed (to ERROR or SUCCESS) you receive callback on address specified on callbackUrl. It looks like `HTTPS GET` request, so you should place your deal id in url (ex. https://my.app/callback `?id=39022`)
 PAYIN top up the client with the amount specified in the field amountFiatReceived
 Request:
 ```JSON
